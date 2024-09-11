@@ -5,7 +5,7 @@
 #include <time.h>
 
 using namespace std;
-
+// Algoritmo SelectionSort basado en https://www.geeksforgeeks.org/cpp-program-for-selection-sort/
 // Función para intercambiar dos elementos
 void swap(int &a, int &b) {
     int temp = a;
