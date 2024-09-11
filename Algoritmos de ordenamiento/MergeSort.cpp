@@ -5,7 +5,7 @@
 #include <time.h>
 
 using namespace std;
-// Algoritmo basado en https://www.geeksforgeeks.org/cpp-program-for-merge-sort/
+// Algoritmo del MergeSort basado en https://www.geeksforgeeks.org/cpp-program-for-merge-sort/
 // Función para fusionar dos subarreglos ordenados
 void merge(std::vector<int>& arr, int izquierda, int centro, int derecha) {
     int n1 = centro - izquierda + 1;
