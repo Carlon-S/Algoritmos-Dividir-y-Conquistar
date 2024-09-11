@@ -5,7 +5,7 @@
 #include <time.h>
 
 using namespace std;
-
+//Algoritmo QuickSort basado en https://www.geeksforgeeks.org/cpp-program-for-quicksort/
 // Función para intercambiar dos elementos del arreglo
 void swap(int* a, int* b) {
     int temp = *a;
