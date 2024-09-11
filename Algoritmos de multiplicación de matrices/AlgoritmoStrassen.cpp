@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//Algoritmo Strassen obtenido en https://www.geeksforgeeks.org/strassens-matrix-multiplication/
 void print(string display, vector<vector<int> > matrix,
 		int start_row, int start_column, int end_row,
 		int end_column)
